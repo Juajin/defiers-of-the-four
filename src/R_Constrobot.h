@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------
-// Bitmap Object
-// C++ Header - Robot_Captain.h
+// R_Constrobot Object
+// C++ Header - R_Constrobot.h
 //-----------------------------------------------------------------
 
 #pragma once
@@ -9,31 +9,23 @@
 // Include Files
 //-----------------------------------------------------------------
 #include <windows.h>
-#include "Character.h"
+#include <string>
+#include <time.h>
+
+#include "Robot.h"
 
 //-----------------------------------------------------------------
-// Character Class
+// R_Constrobot Class
 //-----------------------------------------------------------------
-class Ro
+class R_Constrobot :public Robot
 {
 protected:
-	// Member Variables
-	Sprite sprite;
-	POINT position;
-	POINT speed;
-	int healthPoint;
-	int velocity;
-
-
-	// Helper Methods
-	void Free();
-
 public:
 	// Constructor(s)/Destructor
-	Character();
-	virtual ~Character();
+	R_Constrobot(string _name, string _description, Sprite * _sprite, Sprite * _menuSprite, int _healthPoint, int _speed, POINT _mapPosition, int _fireSpeed);
+	virtual ~R_Constrobot();
 
-	void Move();
-	void Fire(POINT target);
-
+	// General Methods
+	void UseAbility1();
+	void UseAbility2();
 };

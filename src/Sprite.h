@@ -32,7 +32,12 @@ const BOUNDSACTION  BA_STOP   = 0,
 
 typedef WORD		SPRITETYPE;
 const SPRITETYPE	ST_OTHER = 0,
-					ST_CHARACTER = 1;
+					ST_CHARACTER = 1,
+					ST_DEMON = 2,
+					ST_WALL = 3,
+					ST_BASE = 4,
+					ST_ALLY_BULLET = 5,
+					ST_ENEMY_BULLET = 6;
 
 //-----------------------------------------------------------------
 // Sprite Class
@@ -97,7 +102,7 @@ public:
 	void    SetBoundsAction(BOUNDSACTION ba) { boundsAction = ba; };
 	BOOL    IsHidden() { return isHidden; };
 	void    SetHidden(BOOL _isHidden) { isHidden = _isHidden; };
-	int     GetWidth() { return bitmap->GetWidth(); };
+	int     GetWidth() { return bitmap->GetWidth() / numFrames; };
 	int     GetHeight() { return bitmap->GetHeight(); };
 
 	Character*	GetCharacter() { return character; };
@@ -178,7 +183,7 @@ inline void Sprite::SetPosition(POINT _position) {
 }
 
 inline void Sprite::SetPosition(RECT& _rcPosition) {
-	CopyRect(&collisionRect, &_rcPosition);
+	CopyRect(&position, &_rcPosition); // ???
 	CalcCollisionRect();
 }
 

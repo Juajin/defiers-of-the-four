@@ -45,6 +45,30 @@
     <ClInclude Include="Robot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Demon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WallSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R_Captain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R_Wololo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R_Constrobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R_Pulsar2280.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -71,6 +95,30 @@
     <ClCompile Include="Robot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Demon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WallSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="R_Captain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="R_Wololo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="R_Constrobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="R_Pulsar2280.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DotF.rc">
@@ -84,5 +132,112 @@
     <Image Include="DotF.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="resources\menu\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Dotf.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Icons\Dotf_sm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu_title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu_star.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\sheep.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\bitmaps\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\bulletdemon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu_robot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\monster.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\wall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\enemybase.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\demon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\robot_1_walk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\robot_1_fire.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\boss_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\wall_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\wall_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\wall_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\demon_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\demon_1_explosion.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\explosion.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Bitmaps\portal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Sounds\menu_click.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\menu_click_back.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\menu_select.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\robot_fire.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\gun_shot.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\explosion.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\heal.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\demon_die_1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\demon_die_2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\captain_2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resources\Sounds\constrobot_1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
